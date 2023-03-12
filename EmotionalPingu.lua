@@ -16,12 +16,7 @@ end)
 MainSection:NewButton("Fruit Hopper", "Teleports you to the Blox Fruit which spawned/dropped!", function()
     loadstring(game:HttpGet("https://pastebin.com/SW8iwvWh", true))()
 end)
-
-MainSection:NewButton("Beli Farm", "Get 100 Million+ Beli/Week", function()
-    loadstring(game:HttpGet("https://pastebin.com/pA8T8c2U"))()
-end)
- 
- 
+  
 MainSection:NewSlider("WalkSpeed", "Walk Slider", 500, 0, function(x) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = x
 end)
