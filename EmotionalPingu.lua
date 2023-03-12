@@ -14,7 +14,7 @@ MainSection:NewButton("TP CHEST", "Harness the power of CHESTS!", function()
 end)
  
 MainSection:NewButton("Fruit Hopper", "Teleports you to the Blox Fruit which spawned/dropped!", function()
-    loadstring(game:HttpGet("https://pastebin.com/SW8iwvWh", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/LnFRc5jP", true))()
 end)
   
 MainSection:NewSlider("WalkSpeed", "Walk Slider", 500, 0, function(x) -- 500 (MaxValue) | 0 (MinValue)
